@@ -94,7 +94,6 @@ SELECT city, count(*), max(temp_lo)
 
 - The LIKE operator does pattern matching.
 
-
 # Filter
 
 Another way to select the rows that go into an aggregate computation is to use FILTER, which is a per-aggregate option:

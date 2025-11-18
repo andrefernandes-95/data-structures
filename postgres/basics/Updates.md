@@ -1,0 +1,9 @@
+## Updates
+
+Suppose you discover the temperature readings are all off by 2 degrees after November 28. You can correct the data as follows:
+
+```sql
+UPDATE weather 
+SET temp_hi = temp_hi - 2, temp_lo = temp_lo - 2
+WHERE date > '1994-11-28'
+```
